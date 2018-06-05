@@ -1,0 +1,65 @@
+html {
+  font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    line-height: 1.8;
+    color: #484848;
+}
+
+h1 {
+    font-size: 2.25rem;
+    line-height: 1.3;
+    letter-spacing: 0.5rem;
+  }
+
+h2 {
+    font-size: 1.5rem;
+    line-height: 1.4;
+    letter-spacing: 0.5rem;
+  }
+
+p {
+    margin: 0 0 2rem 0;
+  }
+
+em {
+    font-style: italic;
+  }
+
+nav{
+  margin-left: 1rem;
+  margin-top: .5rem;
+}
+
+.main-image{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10rem;
+  width: 60%;
+}
+ 
+ .image-center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+ }
+
+ .modal-body p{
+  padding: 2rem;
+
+ }
+
+
+#video-background {
+/*  making the video fullscreen  */
+  position: fixed;
+  right: 0; 
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  width: auto; 
+  height: auto;
+  z-index: -100;
+}
+
